@@ -1,0 +1,66 @@
+{
+    "2001":{
+        "name": "标 05",
+        "title": "革命缔造之人",
+        "health":6,
+        "maxHealth":6,
+        "power":"反",
+        "skills":[]
+    },
+    "2002":{
+        "name": "标 06",
+        "title": "一嘴反骨",
+        "health":6,
+        "maxHealth":6,
+        "power":"篮",
+        "skills":[]
+    },
+    "2003":{
+        "name": "标 07",
+        "title": "眉目清秀",
+        "health":35,
+        "maxHealth":35,
+        "power":"散",
+        "skills":[]
+    },
+    "2004":{
+        "name": "标 08",
+        "title": "高级战士",
+        "health":6,
+        "maxHealth":6,
+        "power":"权",
+        "skills":[]
+    },
+    "2005":{
+        "name": "标 09",
+        "title": "正雷",
+        "health":6,
+        "maxHealth":6,
+        "power":"篮",
+        "skills":[]
+    },
+    "2006":{
+        "name": "标 10",
+        "title": "牢大",
+        "health":10,
+        "maxHealth":10,
+        "power":"篮",
+        "skills":[]
+    },
+    "2007":{
+        "name": "标 11",
+        "title": "二代",
+        "health":6,
+        "maxHealth":6,
+        "power":"权",
+        "skills":[]
+    },
+    "2008":{
+        "name": "标 12",
+        "title": "顾皇",
+        "health":6,
+        "maxHealth":6,
+        "power":"篮",
+        "skills":[]
+    }
+}

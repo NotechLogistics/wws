@@ -1,0 +1,46 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "client1",
+            "type": "shell",
+            "command": "powershell -NoExit  -c F:;cd F:\\王五杀\\game4.0\\client;$host.UI.RawUI.ForegroundColor = 'BLUE';.venv\\Scripts\\Activate.ps1 ",
+            "presentation": {
+                "panel": "dedicated",
+                "echo": false,
+                "reveal": "always"
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        },
+        //         {
+        //     "label": "client2",
+        //     "type": "shell",
+        //     "command": "powershell -NoExit  -c F:;cd F:\\王五杀\\game4.0\\client;$host.UI.RawUI.ForegroundColor = 'BLUE';.venv\\Scripts\\Activate.ps1 ",
+        //     "presentation": {
+        //         "panel": "dedicated",
+        //         "echo": false,
+        //         "reveal": "always"
+        //     },
+        //     "runOptions": {
+        //         "runOn": "folderOpen"
+        //     }
+        // },
+        {
+            "label": "server",
+            "type": "shell",
+            "command": "powershell -NoExit -c F:;cd F:\\王五杀\\game4.0\\server;$host.UI.RawUI.ForegroundColor = 'RED';.venv\\Scripts\\Activate.ps1",
+            "presentation": {
+                "panel": "dedicated",
+                "echo": false,
+                "reveal": "always"
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+        }
+    ]
+}
