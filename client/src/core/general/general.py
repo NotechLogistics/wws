@@ -31,8 +31,11 @@ class General:
     def __str__(self):
         return f"{self.name} {self.health} {self.max_health}"
     
-    def take_damage(self, damage):
+    def cause_harm(self, damage):
         self.health -= damage
     
-    def heal(self, amount):
+    def restore_health(self, amount):
         self.health = min(self.max_health, self.health + amount)
+    
+    def hurt(self, damage):
+        self.health -= damage
